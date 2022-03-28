@@ -1,0 +1,131 @@
+
+:root{
+    --mint: #03fcb6;
+    --dark-mint:#18e2a9;
+    --dark-highlight:#16d09b;
+}
+
+body{
+    font-family: 'Bungee', cursive;
+    background-color: var(--mint);
+}
+
+p{
+    text-align:center;
+}
+
+#monkey-div{
+    
+}
+
+#info-div{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding:3px;
+    font-size:20px;
+    margin-top:0px;
+}
+
+h1{
+   text-align:center;
+}
+
+#button-container > button{
+    background-color: var(--dark-mint);
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:8px;
+    font-family: 'Bungee', cursive;
+    border: 0px solid;
+    display: block;
+    width:35%;
+    font-size:20px;
+    margin: 10px;
+}
+
+#button-container > button:hover{
+    background-color:var(--dark-highlight);
+}
+
+
+#button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.monkey-container{
+    background-color:var(--dark-mint);
+    border-radius:20px;
+    padding:3px;
+    max-width:52%;
+    min-width:20%;
+    height:45%;
+    margin:10px;
+}
+
+.monkey-container > p{
+    font-size:10px;
+}
+
+.monkey-container > h2{
+    font-size:20px;
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#monkey-div{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:center;
+    border-radius:8px;
+    background-color:var(--dark-highlight);
+    margin-top:10px;
+}
+
+.monkey-text{
+    border: 2px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-sizing:border-box;
+    border-radius:2px;
+    margin-left:3px;
+    margin-right:3px;
+}
+
+#jungle-title{
+    width:100%;
+}
+input:focus{
+    outline:none;
+}
+#goal-input{
+    background-color: var(--dark-mint);
+    padding: 3px 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+    box-sizing: border-box;
+    width:50%;
+    display:block;
+    border-radius:8px;
+    border: 2px solid var(--dark-highlight);
+    text-align:center;
+    font-family: 'Bungee', cursive;
+    font-size:25px;
+}
+
+
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+    display:block;
+    text-align:center;
+}
